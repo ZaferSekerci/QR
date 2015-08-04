@@ -12,7 +12,7 @@
         android:layout_height="65dp"
         android:id="@+id/button"
         android:background="@drawable/etkinlik_back"
-        android:layout_marginTop="67dp"
+        android:layout_marginTop="73dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
