@@ -4,23 +4,25 @@
     tools:context=".MainActivity"
     android:alpha="10"
     android:id="@+id/giris"
-    style="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+    style="@android:style/Theme.DeviceDefault.Light.NoActionBar"
+    android:background="@drawable/main_bg_bos">
 
     <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_alignParentEnd="true">
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
-
-        </LinearLayout>
+        android:layout_marginTop="115dp"
+        android:id="@+id/linearLayout">
 
     </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:background="@drawable/etkinlik"
+        android:layout_alignBottom="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
