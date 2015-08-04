@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/ders_programi_renk" /> <!-- pressed -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/ders_programi_renk" /> <!-- focused -->
+    <item android:drawable="@drawable/ders_programi" /> <!-- default -->
+</selector>
