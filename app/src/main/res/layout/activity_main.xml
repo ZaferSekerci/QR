@@ -5,14 +5,14 @@
     android:alpha="10"
     android:id="@+id/giris"
     style="@android:style/Theme.DeviceDefault.Light.NoActionBar"
-    android:background="@drawable/main_bg_bos">
+    android:background="@drawable/main_bg">
 
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:id="@+id/button"
         android:background="@drawable/etkinlik_back"
-        android:layout_marginTop="73dp"
+        android:layout_marginTop="117dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -20,34 +20,35 @@
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:id="@+id/button2"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="75dp"
         android:background="@drawable/duyurular_back"
-        android:layout_below="@+id/button"
+        android:layout_alignTop="@+id/button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="30dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="35dp" />
 
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:id="@+id/button3"
-        android:layout_alignBottom="@+id/button2"
+        android:layout_marginEnd="31dp"
+        android:background="@drawable/yol_back"
+        android:layout_above="@+id/button4"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="17dp"
-        android:layout_marginEnd="17dp"
-        android:background="@drawable/yol_back" />
+        android:layout_marginRight="31dp" />
 
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:id="@+id/button4"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="51dp"
         android:background="@drawable/ders_back"
         android:layout_below="@+id/button2"
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
-        android:layout_marginLeft="10dp" />
+        android:layout_marginLeft="8dp" />
 
     <Button
         android:layout_width="65dp"
@@ -55,10 +56,8 @@
         android:id="@+id/button5"
         android:background="@drawable/sosyal_back"
         android:layout_alignTop="@+id/button4"
-        android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3"
-        android:layout_marginRight="14dp"
-        android:layout_marginEnd="14dp" />
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
 
     <Button
         android:layout_width="65dp"
@@ -68,6 +67,7 @@
         android:background="@drawable/hakki_back"
         android:layout_below="@+id/button5"
         android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button" />
+        android:layout_alignStart="@+id/button"
+        android:layout_marginLeft="5dp" />
 
 </RelativeLayout>
