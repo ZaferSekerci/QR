@@ -7,6 +7,7 @@ import android.view.MenuItem;
 
 public class yol_tarifi extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
