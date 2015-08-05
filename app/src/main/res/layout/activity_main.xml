@@ -13,21 +13,23 @@
         android:layout_height="65dp"
         android:id="@+id/etkinlik_btn"
         android:background="@drawable/etkinlik_back"
-        android:layout_marginTop="117dp"
+        android:layout_marginTop="108dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="etkinlik_go" />
 
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:id="@+id/duyuru_btn"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="60dp"
         android:background="@drawable/duyurular_back"
         android:layout_alignTop="@+id/etkinlik_btn"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="30dp"
-        android:layout_marginLeft="35dp" />
+        android:layout_marginLeft="35dp"
+        android:onClick="duyurular_go" />
 
     <Button
         android:layout_width="65dp"
@@ -38,18 +40,20 @@
         android:layout_above="@+id/ders_btn"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginRight="31dp" />
+        android:layout_marginRight="31dp"
+        android:onClick="yol_go" />
 
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:id="@+id/ders_btn"
-        android:layout_marginTop="51dp"
+        android:layout_marginTop="45dp"
         android:background="@drawable/ders_back"
         android:layout_below="@+id/duyuru_btn"
         android:layout_alignLeft="@+id/duyuru_btn"
         android:layout_alignStart="@+id/duyuru_btn"
-        android:layout_marginLeft="8dp" />
+        android:layout_marginLeft="8dp"
+        android:onClick="ders_go" />
 
     <Button
         android:layout_width="65dp"
@@ -58,17 +62,18 @@
         android:background="@drawable/sosyal_back"
         android:layout_alignTop="@+id/ders_btn"
         android:layout_alignLeft="@+id/yol_btn"
-        android:layout_alignStart="@+id/yol_btn" />
+        android:layout_alignStart="@+id/yol_btn"
+        android:onClick="sosyal_go" />
 
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
         android:id="@+id/hakkimizda_btn"
-        android:layout_marginTop="15dp"
         android:background="@drawable/hakki_back"
         android:layout_below="@+id/sosyal_btn"
         android:layout_alignLeft="@+id/etkinlik_btn"
         android:layout_alignStart="@+id/etkinlik_btn"
-        android:layout_marginLeft="5dp" />
+        android:layout_marginTop="5dp"
+        android:onClick="hakkimizda_go" />
 
 </RelativeLayout>
