@@ -10,7 +10,7 @@
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:id="@+id/button"
+        android:id="@+id/etkinlik_btn"
         android:background="@drawable/etkinlik_back"
         android:layout_marginTop="117dp"
         android:layout_alignParentTop="true"
@@ -19,10 +19,10 @@
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:id="@+id/button2"
+        android:id="@+id/duyuru_btn"
         android:layout_marginTop="75dp"
         android:background="@drawable/duyurular_back"
-        android:layout_alignTop="@+id/button"
+        android:layout_alignTop="@+id/etkinlik_btn"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="30dp"
@@ -31,10 +31,10 @@
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:id="@+id/button3"
+        android:id="@+id/yol_btn"
         android:layout_marginEnd="31dp"
         android:background="@drawable/yol_back"
-        android:layout_above="@+id/button4"
+        android:layout_above="@+id/ders_btn"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:layout_marginRight="31dp" />
@@ -42,32 +42,32 @@
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:id="@+id/button4"
+        android:id="@+id/ders_btn"
         android:layout_marginTop="51dp"
         android:background="@drawable/ders_back"
-        android:layout_below="@+id/button2"
-        android:layout_alignLeft="@+id/button2"
-        android:layout_alignStart="@+id/button2"
+        android:layout_below="@+id/duyuru_btn"
+        android:layout_alignLeft="@+id/duyuru_btn"
+        android:layout_alignStart="@+id/duyuru_btn"
         android:layout_marginLeft="8dp" />
 
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:id="@+id/button5"
+        android:id="@+id/sosyal_btn"
         android:background="@drawable/sosyal_back"
-        android:layout_alignTop="@+id/button4"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignTop="@+id/ders_btn"
+        android:layout_alignLeft="@+id/yol_btn"
+        android:layout_alignStart="@+id/yol_btn" />
 
     <Button
         android:layout_width="65dp"
         android:layout_height="65dp"
-        android:id="@+id/button6"
+        android:id="@+id/hakkimizda_btn"
         android:layout_marginTop="15dp"
         android:background="@drawable/hakki_back"
-        android:layout_below="@+id/button5"
-        android:layout_alignLeft="@+id/button"
-        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/sosyal_btn"
+        android:layout_alignLeft="@+id/etkinlik_btn"
+        android:layout_alignStart="@+id/etkinlik_btn"
         android:layout_marginLeft="5dp" />
 
 </RelativeLayout>
