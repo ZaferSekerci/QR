@@ -7,6 +7,9 @@ import android.view.MenuItem;
 
 public class etkinlik extends AppCompatActivity {
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
