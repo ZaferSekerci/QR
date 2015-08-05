@@ -4,4 +4,10 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="ust_baslik">QR-NEF</string>
+    <string name="title_activity_yol_tarifi">yol_tarifi</string>
+    <string name="title_activity_duyurular">duyurular</string>
+    <string name="title_activity_ders_programi">ders_programi</string>
+    <string name="title_activity_sosyal_medya">sosyal_medya</string>
+    <string name="title_activity_etkinlik">etkinlik</string>
+    <string name="title_activity_hakkimizda">hakkimizda</string>
 </resources>

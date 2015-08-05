@@ -16,6 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".yol_tarifi"
+            android:label="@string/title_activity_yol_tarifi" >
+        </activity>
+        <activity
+            android:name=".duyurular"
+            android:label="@string/title_activity_duyurular" >
+        </activity>
+        <activity
+            android:name=".ders_programi"
+            android:label="@string/title_activity_ders_programi" >
+        </activity>
+        <activity
+            android:name=".sosyal_medya"
+            android:label="@string/title_activity_sosyal_medya" >
+        </activity>
+        <activity
+            android:name=".etkinlik"
+            android:label="@string/title_activity_etkinlik" >
+        </activity>
+        <activity
+            android:name=".hakkimizda"
+            android:label="@string/title_activity_hakkimizda" >
+        </activity>
     </application>
 
 </manifest>
