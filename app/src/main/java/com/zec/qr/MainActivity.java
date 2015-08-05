@@ -1,12 +1,15 @@
 package com.zec.qr;
 
-import android.support.v7.app.ActionBarActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
 
 
@@ -14,8 +17,30 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
+    }
+    public void etkinlik_go(View view) {
+        Intent intent = new Intent(this, etkinlik.class);
+        startActivity(intent);
+    }
+    public void ders_go(View view) {
+        Intent intent = new Intent(this, ders_programi.class);
+        startActivity(intent);
+    }
+    public void sosyal_go(View view) {
+        Intent intent = new Intent(this, sosyal_medya.class);
+        startActivity(intent);
+    }
+    public void yol_go(View view) {
+        Intent intent = new Intent(this, yol_tarifi.class);
+        startActivity(intent);
+    }
+    public void hakkimizda_go(View view) {
+        Intent intent = new Intent(this, hakkimizda.class);
+        startActivity(intent);
+    }
+    public void duyurular_go(View view) {
+        Intent intent = new Intent(this, duyurular.class);
+        startActivity(intent);
     }
 
     @Override
