@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, hakkimizda.class);
         startActivity(intent);
     }
-    public void duyurular_go(View view) {
+    public void duyuru_go(View view) {
         Intent intent = new Intent(this, duyurular.class);
         startActivity(intent);
     }

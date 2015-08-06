@@ -20,7 +20,8 @@
             android:id="@+id/button"
             android:layout_weight="1"
             android:background="@drawable/back"
-            android:gravity="center_vertical|center_horizontal" />
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="15dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -40,7 +41,8 @@
             android:id="@+id/button2"
             android:layout_weight="1"
             android:gravity="center_vertical|center_horizontal"
-            android:background="@drawable/home" />
+            android:background="@drawable/home"
+            android:layout_marginRight="15dp" />
 
     </LinearLayout>
 
@@ -52,7 +54,7 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="110dp"
+            android:layout_height="149dp"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/textView2"
             android:password="false"
@@ -65,21 +67,21 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="142dp"
         android:weightSum="1"
         android:gravity="center_horizontal">
 
         <Button
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:id="@+id/button8"
             android:background="@drawable/twitter"
             android:layout_marginRight="50dp" />
 
 
         <Button
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:id="@+id/button7"
             android:background="@drawable/facebook" />
 
@@ -88,21 +90,22 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="119dp"
         android:gravity="center_vertical|center_horizontal"
-        android:id="@+id/social">
+        android:id="@+id/social"
+        android:layout_weight="0.55">
 
         <Button
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:id="@+id/button6"
             android:layout_gravity="center_vertical"
             android:background="@drawable/instagram"
             android:layout_marginRight="50dp" />
 
         <Button
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:id="@+id/button5"
             android:layout_gravity="center_vertical"
             android:background="@drawable/g" />

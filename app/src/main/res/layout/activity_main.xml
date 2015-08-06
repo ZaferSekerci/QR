@@ -2,78 +2,162 @@
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     tools:context=".MainActivity"
-    android:alpha="10"
     android:id="@+id/giris"
     style="@android:style/Theme.DeviceDefault.Light.NoActionBar"
-    android:background="@drawable/main_bg">
+    android:background="@drawable/arka">
 
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/nef"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="65dp"
+        android:layout_width="70dp"
         android:layout_height="65dp"
-        android:id="@+id/etkinlik_btn"
-        android:background="@drawable/etkinlik_back"
-        android:layout_marginTop="108dp"
-        android:layout_alignParentTop="true"
+        android:id="@+id/button9"
+        android:layout_above="@+id/imageView"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/etkinlik_back"
         android:onClick="etkinlik_go" />
 
     <Button
-        android:layout_width="65dp"
+        android:layout_width="70dp"
         android:layout_height="65dp"
-        android:id="@+id/duyuru_btn"
-        android:layout_marginTop="60dp"
-        android:background="@drawable/duyurular_back"
-        android:layout_alignTop="@+id/etkinlik_btn"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginLeft="35dp"
-        android:onClick="duyurular_go" />
+        android:id="@+id/button10"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/hakki_back"
+        android:onClick="hakkimizda_go" />
 
     <Button
-        android:layout_width="65dp"
+        android:layout_width="70dp"
         android:layout_height="65dp"
-        android:id="@+id/yol_btn"
-        android:layout_marginEnd="31dp"
+        android:id="@+id/button11"
         android:background="@drawable/yol_back"
-        android:layout_above="@+id/ders_btn"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="31dp"
+        android:layout_below="@+id/button9"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="10dp"
         android:onClick="yol_go" />
 
     <Button
-        android:layout_width="65dp"
+        android:layout_width="70dp"
         android:layout_height="65dp"
-        android:id="@+id/ders_btn"
-        android:layout_marginTop="45dp"
-        android:background="@drawable/ders_back"
-        android:layout_below="@+id/duyuru_btn"
-        android:layout_alignLeft="@+id/duyuru_btn"
-        android:layout_alignStart="@+id/duyuru_btn"
-        android:layout_marginLeft="8dp"
-        android:onClick="ders_go" />
-
-    <Button
-        android:layout_width="65dp"
-        android:layout_height="65dp"
-        android:id="@+id/sosyal_btn"
+        android:id="@+id/button12"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"
         android:background="@drawable/sosyal_back"
-        android:layout_alignTop="@+id/ders_btn"
-        android:layout_alignLeft="@+id/yol_btn"
-        android:layout_alignStart="@+id/yol_btn"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="-5dp"
         android:onClick="sosyal_go" />
 
     <Button
-        android:layout_width="65dp"
+        android:layout_width="70dp"
         android:layout_height="65dp"
-        android:id="@+id/hakkimizda_btn"
-        android:background="@drawable/hakki_back"
-        android:layout_below="@+id/sosyal_btn"
-        android:layout_alignLeft="@+id/etkinlik_btn"
-        android:layout_alignStart="@+id/etkinlik_btn"
-        android:layout_marginTop="5dp"
-        android:onClick="hakkimizda_go" />
+        android:id="@+id/button13"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginTop="-30dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/duyurular_back"
+        android:onClick="duyuru_go" />
 
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:id="@+id/button14"
+        android:layout_alignTop="@+id/button12"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ders_back"
+        android:onClick="ders_go" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Etkinlik Takvimi"
+        android:id="@+id/textView"
+        android:textColor="#ffffffff"
+        android:textSize="21dp"
+        android:layout_alignTop="@+id/button11"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Yol Tarifi"
+        android:id="@+id/textView3"
+        android:textColor="#ffffffff"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:layout_below="@+id/button11"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Duyurular"
+        android:id="@+id/textView5"
+        android:textColor="#ffffffff"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Ders Programları"
+        android:id="@+id/textView6"
+        android:textColor="#ffffffff"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:layout_below="@+id/button14"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Hakkımızda"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:textSize="21dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Sosyal Medya"
+        android:id="@+id/textView8"
+        android:textColor="#ffffffff"
+        android:textSize="21dp"
+        android:gravity="center"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
 </RelativeLayout>
