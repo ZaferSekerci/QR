@@ -48,4 +48,24 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:text="TARA"
+            android:background="@drawable/tara_back"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:alpha="0.4"
+            android:layout_marginBottom="30dp" />
+    </LinearLayout>
+
 </LinearLayout>
