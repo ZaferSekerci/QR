@@ -25,6 +25,7 @@
             android:layout_marginLeft="15dp"
             android:onClick="home_go" />
 
+
         <TextView
             android:layout_width="167dp"
             android:layout_height="wrap_content"
