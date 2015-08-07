@@ -4,7 +4,7 @@
     tools:context=".MainActivity"
     android:id="@+id/giris"
     style="@android:style/Theme.DeviceDefault.Light.NoActionBar"
-    android:background="@drawable/arka">
+    android:background="@drawable/giris">
 
 
     <ImageView
