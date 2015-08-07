@@ -20,10 +20,9 @@
             android:layout_height="65dp"
             android:id="@+id/button"
             android:layout_weight="1"
-            android:background="@drawable/back_back"
+            android:background="@drawable/back"
             android:gravity="center_vertical|center_horizontal"
-            android:layout_marginLeft="15dp"
-            android:onClick="home_go" />
+            android:layout_marginLeft="15dp" />
 
 
         <TextView
@@ -43,41 +42,32 @@
             android:id="@+id/button2"
             android:layout_weight="1"
             android:gravity="center_vertical|center_horizontal"
-            android:background="@drawable/home_back"
-            android:layout_marginRight="15dp"
-            android:onClick="home_go" />
+            android:background="@drawable/home"
+            android:layout_marginRight="15dp" />
 
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:layout_gravity="center_horizontal"
-        android:gravity="bottom">
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TARA"
+            android:id="@+id/scan"
+            android:layout_gravity="center_vertical"
+            android:onClick="tara" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Açıklama Gelecek"
-            android:id="@+id/textView2"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="280dp"
-            android:textColor="#fff7ffcb"
-            android:textSize="25dp" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/button3"
-            android:layout_gravity="center_horizontal"
-            android:text="TARA"
-            android:background="@drawable/tara_back"
-            android:textSize="20dp"
-            android:textStyle="bold"
-            android:alpha="0.4"
-            android:layout_marginBottom="30dp" />
+            android:text="Large Text"
+            android:id="@+id/sonuc"
+            android:layout_gravity="bottom"
+            android:textColor="#ff9e1e" />
     </LinearLayout>
 
 </LinearLayout>

@@ -6,20 +6,32 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 public class yol_tarifi extends AppCompatActivity {
 
-    public void home_go(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.yol_tarifi);
     }
-
+    public void tara(View view) {
+        Intent intent = new Intent("com.google.zxing.client.android.SCAN");
+        intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
+        startActivityForResult(intent, 0);
+    }
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+        if (requestCode == 0) {
+            TextView sonuc=(TextView)findViewById(R.id.sonuc);
+            if (resultCode == RESULT_OK) {
+                sonuc.setText(intent.getStringExtra("SCAN_RESULT"));
+            } else if (resultCode == RESULT_CANCELED) {
+                sonuc.setText("Scan cancelled.");
+            }
+        }
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
