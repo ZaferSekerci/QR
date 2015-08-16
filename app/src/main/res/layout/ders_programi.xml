@@ -62,12 +62,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="Açıklama Gelecek"
+            android:text="@string/ders"
             android:id="@+id/textView10"
             android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="280dp"
-            android:textSize="25dp"
-            android:textColor="#fff7ffcb" />
+            android:textSize="22dp"
+            android:textColor="#fff7ffcb"
+            android:alpha="0.6"
+            android:layout_marginBottom="100dp"
+            android:gravity="center" />
 
         <Button
             android:layout_width="wrap_content"
