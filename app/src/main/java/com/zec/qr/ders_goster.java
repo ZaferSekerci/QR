@@ -1,5 +1,6 @@
 package com.zec.qr;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.ListActivity;
 import android.util.Log;
@@ -64,7 +65,14 @@ public class ders_goster extends ListActivity implements OnClickListener
 
     }
 
-
+    public void ders_go(View view){
+        Intent intent=new Intent(this,ders_programi.class);
+        startActivity(intent);
+    }
+    public void home_go(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 
     @Override
     public void onClick(View v)

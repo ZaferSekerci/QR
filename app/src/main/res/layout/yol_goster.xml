@@ -30,7 +30,7 @@
             android:layout_width="167dp"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:id="@+id/textView4"
+            android:id="@+id/baslik"
             android:textColor="#fffdffff"
             android:text="Yol Tarifi"
             android:textSize="30dp"

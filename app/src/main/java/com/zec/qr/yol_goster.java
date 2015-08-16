@@ -1,9 +1,11 @@
 package com.zec.qr;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TextView;
 
 public class yol_goster extends AppCompatActivity {
@@ -16,6 +18,16 @@ public class yol_goster extends AppCompatActivity {
         gelen = getIntent().getExtras();
         TextView salonAdi=(TextView)findViewById(R.id.baslik);
         salonAdi.setText(gelen.getString("qr_sonuc"));
+    }
+
+    public void home_go(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void yol_go(View view) {
+        Intent intent = new Intent(this, yol_tarifi.class);
+        startActivity(intent);
     }
 
     @Override
