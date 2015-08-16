@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class yol_goster extends AppCompatActivity {
 
@@ -11,6 +12,10 @@ public class yol_goster extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.yol_goster);
+        Bundle gelen;
+        gelen = getIntent().getExtras();
+        TextView salonAdi=(TextView)findViewById(R.id.baslik);
+        salonAdi.setText(gelen.getString("qr_sonuc"));
     }
 
     @Override

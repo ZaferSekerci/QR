@@ -35,20 +35,16 @@ public class yol_tarifi extends AppCompatActivity {
                 Intent goster = new Intent(this, yol_goster.class);
 
                 switch (qr_sonuc) {
-                    case "8qr":
-                        goster.putExtra("qr_sonuc", "Salon - 101");
+                    case "guvenlik":
+                        goster.putExtra("qr_sonuc", "Ön Bahçe Girişi");
                         startActivity(goster);
                         break;
-                    case "9qr":
-                        goster.putExtra("qr_sonuc", "Salon - 102");
+                    case "anagiris":
+                        goster.putExtra("qr_sonuc", "Ana Giriş");
                         startActivity(goster);
                         break;
-                    case "10qr":
-                        goster.putExtra("qr_sonuc", "Salon - 103");
-                        startActivity(goster);
-                        break;
-                    case "1qr":
-                        goster.putExtra("qr_sonuc", "Salon - 104");
+                    case "kantingiris":
+                        goster.putExtra("qr_sonuc", "Kantin Girişi");
                         startActivity(goster);
                         break;
                     default:
