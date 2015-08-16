@@ -16,19 +16,47 @@ public class yol_tarifi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.yol_tarifi);
     }
+    public void home_go(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
     public void tara(View view) {
         Intent intent = new Intent("com.google.zxing.client.android.SCAN");
         intent.putExtra("SCAN_MODE", "QR_CODE_MODE");
         startActivityForResult(intent, 0);
     }
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent intent) {
+    public void onActivityResult(int requestCode, int resultCode, Intent intent_tara) {
         if (requestCode == 0) {
             TextView sonuc=(TextView)findViewById(R.id.sonuc);
             if (resultCode == RESULT_OK) {
-                sonuc.setText(intent.getStringExtra("SCAN_RESULT"));
+
+                String qr_sonuc = intent_tara.getStringExtra("SCAN_RESULT");
+                Intent goster = new Intent(this, yol_goster.class);
+
+                switch (qr_sonuc) {
+                    case "8qr":
+                        goster.putExtra("qr_sonuc", "Salon - 101");
+                        startActivity(goster);
+                        break;
+                    case "9qr":
+                        goster.putExtra("qr_sonuc", "Salon - 102");
+                        startActivity(goster);
+                        break;
+                    case "10qr":
+                        goster.putExtra("qr_sonuc", "Salon - 103");
+                        startActivity(goster);
+                        break;
+                    case "1qr":
+                        goster.putExtra("qr_sonuc", "Salon - 104");
+                        startActivity(goster);
+                        break;
+                    default:
+                        sonuc.setText("Yanlış Bir QR Kod Tarattınız");
+                }
+
             } else if (resultCode == RESULT_CANCELED) {
-                sonuc.setText("Scan cancelled.");
+                sonuc.setText("Tarama İptal Edildi");
             }
         }
     }
