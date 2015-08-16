@@ -11,5 +11,12 @@
     <string name="title_activity_etkinlik">etkinlik</string>
     <string name="title_activity_hakkimizda">hakkimizda</string>
     <string name="title_activity_ders_goster">ders_goster</string>
+    <string name="info1">
+        Bu uygulama Necatibey Eğitim Fakültesi öğrencilerinin fakülte içerisinde yaşadıkları zorlukları
+        (akademik ve idari birimleri bulma, güncel ders programlarına ulaşma v.b.) aşma amacıyla.
+    </string>
+    <string name="info2">
+       Dilek KARATAŞ(201310210044) ve Zafer ŞEKERCİ(201210210038) tarafından Proje-2 Dersi için yazılmıştır.
+    </string>
 </resources>
 

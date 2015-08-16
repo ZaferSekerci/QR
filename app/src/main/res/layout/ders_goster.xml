@@ -50,7 +50,8 @@
         android:orientation="vertical" android:layout_width="fill_parent" android:background="@drawable/arka"
         android:layout_height="fill_parent">
         <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
-            <TextView android:text="PAZARTESİ" android:id="@+id/text1" android:padding="5dip" android:background="#005555"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:text="PAZARTESİ" android:id="@+id/text1" android:padding="5dip" android:background="#1d3c55"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:textStyle="bold" />
             <LinearLayout android:id="@+id/panel1" android:visibility="gone"  android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
                 <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
@@ -58,7 +59,8 @@
             </LinearLayout>
         </LinearLayout>
         <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
-            <TextView android:text="SALI" android:id="@+id/text2" android:padding="5dip" android:background="#005555"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:text="SALI" android:id="@+id/text2" android:padding="5dip" android:background="#1d3c55"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:textStyle="bold" />
             <LinearLayout android:id="@+id/panel2" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
                 <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
@@ -66,7 +68,8 @@
             </LinearLayout>
         </LinearLayout>
         <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
-            <TextView android:text="ÇARŞAMBA" android:id="@+id/text3" android:padding="5dip" android:background="#005555"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:text="ÇARŞAMBA" android:id="@+id/text3" android:padding="5dip" android:background="#1d3c55"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:textStyle="bold" />
             <LinearLayout android:id="@+id/panel3" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
                 <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
@@ -74,7 +77,8 @@
             </LinearLayout>
         </LinearLayout>
         <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
-            <TextView android:text="PERŞEMBE" android:id="@+id/text4" android:padding="5dip" android:background="#005555"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:text="PERŞEMBE" android:id="@+id/text4" android:padding="5dip" android:background="#1d3c55"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:textStyle="bold" />
             <LinearLayout android:id="@+id/panel4" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
                 <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
@@ -82,7 +86,8 @@
             </LinearLayout>
         </LinearLayout>
         <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
-            <TextView android:text="CUMA" android:id="@+id/text5" android:padding="5dip" android:background="#005555"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:text="CUMA" android:id="@+id/text5" android:padding="5dip" android:background="#1d3c55"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:textStyle="bold" />
             <LinearLayout android:id="@+id/panel5" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
                 <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
@@ -90,7 +95,8 @@
             </LinearLayout>
         </LinearLayout>
         <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
-            <TextView android:text="CUMARTESİ" android:id="@+id/text6" android:padding="5dip" android:background="#005555"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:text="CUMARTESİ" android:id="@+id/text6" android:padding="5dip" android:background="#1d3c55"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:textStyle="bold" />
             <LinearLayout android:id="@+id/panel6" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
                 <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
@@ -99,7 +105,8 @@
 
         </LinearLayout>
         <LinearLayout android:layout_marginTop="2dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_gravity="center">
-            <TextView android:text="PAZAR" android:id="@+id/text7" android:padding="5dip" android:background="#005555"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:text="PAZAR" android:id="@+id/text7" android:padding="5dip" android:background="#1d3c55"  android:layout_width="fill_parent" android:layout_height="wrap_content"
+                android:textStyle="bold" />
             <LinearLayout android:id="@+id/panel7" android:visibility="gone" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
                 <TextView android:layout_margin="2dip" android:text="Item1" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
                 <TextView android:layout_margin="2dip" android:text="Item2" android:padding="5dip" android:background="#777777"  android:layout_width="fill_parent" android:layout_height="wrap_content" />
