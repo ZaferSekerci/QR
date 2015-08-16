@@ -19,21 +19,27 @@
        Dilek KARATAŞ(201310210044) ve Zafer ŞEKERCİ(201210210038) tarafından Proje Geliştirme ve Yönetimi 2 Dersi için yazılmıştır.
     </string >
 
-    <string name="duyuru">
+    <string name="duyuru1">
         Öğretmenlerin anlık olarak öğrencilerine gönerdikleri duyurularının, Üniversitemizin genel duyurularının ve Fakültemizin
         genel duyurularının bulunduğu kısımdır.
+    </string>
+    <string name="duyuru2">
         NOT :Öğretmen duyurusu için Öğretmenlerimizin oda kapılarında bulunan,Üniversite ve Fakülte duyuruları için katların
         panolarında bulunan QR kodu tara butonuna tıkladıktan sonra okutunuz.
     </string>
 
-    <string name="ders">
+    <string name="ders1">
         Sınıfların haftalık güncel ders programının bulunduğu kısımdır.
+    </string>
+    <string name="ders2">
         NOT :Ders programını görmek istediğiniz sınıfın kapısında bulunan QR kodu tara butonuna tıkladıktan sonra okutunuz.
     </string>
 
-    <string name="etkinlik">
+    <string name="etkinlik1">
         Necatibey Eğitim Fakültesi içerisinde ve konferans salonunda bulunan güncel etkinliklerin ve toplantıların
         yer aldığı kısımdır.
+    </string>
+    <string name="etkinlik2">
         NOT :Etkinlik Takvimine ulaşmak için konferans salonu kapısında bulunan QR kodu tara butonuna tıkladıktan sonra okutunuz.
     </string>
 
@@ -41,9 +47,11 @@
         Necatibey Eğitim Fakültesi Sosyal Medya hesaplarına buradan ulaşabilirsiniz.
     </string>
 
-    <string name="yol">
+    <string name="yol1">
         Fakülte içerisinde bulunan Öğrenci İşleri, Dekanlık, Fakülte Sekreteri, Sınıflar, Kütüphane ve Öğretmen odalarının
         yol tariflerinin bulunduğu kısımdır.
+    </string>
+    <string name="yol2">
         NOT :Gitmek istediğiniz yere nasıl ulaşacağınızı öğrenmek için girişte bunan güvenlik camında, kantin giriş
         kapısında ya da ana giriş kapısında bulunan QR kodlardan birisini tara butonuna tıkladıktan sonra okutunuz.
     </string>

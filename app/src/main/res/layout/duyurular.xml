@@ -59,14 +59,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/duyuru"
+            android:text="@string/duyuru1"
             android:id="@+id/textView9"
             android:layout_gravity="center_horizontal"
             android:textColor="#fff7ffcb"
             android:textSize="20dp"
-            android:layout_marginBottom="30dp"
             android:gravity="center"
-            android:alpha="0.6" />
+            android:alpha="0.6"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/duyuru2"
+            android:id="@+id/textView14"
+            android:layout_gravity="center_horizontal"
+            android:alpha="0.6"
+            android:gravity="center"
+            android:textColor="#fff7ffcb"
+            android:textSize="20dp"
+            android:layout_marginBottom="15dp" />
 
         <Button
             android:layout_width="wrap_content"
