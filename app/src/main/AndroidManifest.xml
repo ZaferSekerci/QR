@@ -57,8 +57,13 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="com.google.zxing.client.android.SCAN" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".yol_goster"
+            android:label="@string/title_activity_yol_goster" >
         </activity>
     </application>
 
