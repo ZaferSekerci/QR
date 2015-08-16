@@ -18,8 +18,7 @@ public class yol_gidis extends AppCompatActivity {
         gelen2= getIntent().getExtras();
         gelen = getIntent().getExtras();
         TextView yer_adi=(TextView)findViewById(R.id.baslik);
-        TextView konum=(TextView)findViewById(R.id.deneme);
-        if(konum.getText()=="Ön Bahçe Girişi")
+
         yer_adi.setText(gelen.getString("gelen"));
     }
     public void home_goo(View view) {
