@@ -34,7 +34,8 @@
             android:text="Ders Programı"
             android:textSize="30dp"
             android:layout_margin="20dp"
-            android:gravity="center_vertical|center_horizontal" />
+            android:gravity="center_vertical|center_horizontal"
+            android:lines="3" />
 
 
 
