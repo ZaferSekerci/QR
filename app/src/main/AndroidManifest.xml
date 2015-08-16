@@ -65,6 +65,10 @@
             android:name=".yol_goster"
             android:label="@string/title_activity_yol_goster" >
         </activity>
+        <activity
+            android:name=".yol_gidis"
+            android:label="@string/title_activity_yol_gidis" >
+        </activity>
     </application>
 
 </manifest>
