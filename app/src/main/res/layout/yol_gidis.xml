@@ -23,7 +23,7 @@
             android:background="@drawable/back_back"
             android:gravity="center_vertical|center_horizontal"
             android:layout_marginLeft="15dp"
-            android:onClick="yol_back" />
+            android:onClick="yol_go" />
 
 
         <TextView
@@ -32,7 +32,7 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:id="@+id/baslik"
             android:textColor="#fffdffff"
-            android:text="Yol Tarifi"
+            android:text="Gidilecek Yer"
             android:textSize="30dp"
             android:layout_margin="20dp"
             android:gravity="center_vertical|center_horizontal" />
@@ -47,7 +47,7 @@
             android:gravity="center_vertical|center_horizontal"
             android:background="@drawable/home_back"
             android:layout_marginRight="15dp"
-            android:onClick="home_goo" />
+            android:onClick="home_go" />
 
     </LinearLayout>
 
@@ -59,31 +59,14 @@
         android:gravity="center_vertical|center_horizontal"
         android:id="@+id/body">
 
-        <Button
-            android:layout_width="210dp"
-            android:layout_height="60dp"
-            android:id="@+id/button6"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/ogrenci_back"
-            android:layout_marginBottom="15dp"
-            android:onClick="ogr_isleri" />
 
-        <Button
-            android:layout_width="210dp"
-            android:layout_height="60dp"
-            android:id="@+id/button17"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/dekanlik_back"
-            android:layout_marginBottom="15dp"
-            android:onClick="dekanlik" />
-
-        <Button
-            android:layout_width="210dp"
-            android:layout_height="60dp"
-            android:id="@+id/button18"
-            android:layout_gravity="center_horizontal"
-            android:background="@drawable/kutuphane_back"
-            android:onClick="kutuphane" />
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+        </ListView>
     </LinearLayout>
 
 </LinearLayout>

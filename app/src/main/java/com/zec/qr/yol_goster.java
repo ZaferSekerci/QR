@@ -10,6 +10,15 @@ import android.widget.TextView;
 
 public class yol_goster extends AppCompatActivity {
 
+    public void yol_back(View view) {
+        Intent intent = new Intent(this, yol_tarifi.class);
+        startActivity(intent);
+    }
+    public void home_go(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +29,29 @@ public class yol_goster extends AppCompatActivity {
         salonAdi.setText(gelen.getString("qr_sonuc"));
     }
 
-    public void home_go(View view) {
+    public void dekanlik(View view){
+        Intent goster = new Intent(this, yol_gidis.class);
+        TextView konum=(TextView)findViewById(R.id.baslik);
+        goster.putExtra("gelen", "Dekanlık");
+        goster.putExtra("gelen2",konum.getText());
+        startActivity(goster);
+    }
+    public void kutuphane(View view){
+        Intent goster = new Intent(this, yol_gidis.class);
+        TextView konum=(TextView)findViewById(R.id.baslik);
+        goster.putExtra("gelen", "Kütüphane");
+        goster.putExtra("gelen2",konum.getText());
+        startActivity(goster);
+    }
+    public void ogr_isleri(View view){
+        Intent goster = new Intent(this, yol_gidis.class);
+        TextView konum=(TextView)findViewById(R.id.baslik);
+        goster.putExtra("gelen", "Öğrenci İşleri");
+        goster.putExtra("gelen2",konum.getText());
+        startActivity(goster);
+    }
+
+    public void home_goo(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
