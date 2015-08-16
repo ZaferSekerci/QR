@@ -117,6 +117,4 @@
             android:layout_height="340dip"  android:drawSelectorOnTop="false"  android:dividerHeight="0px"/>
     </LinearLayout>
 
-
-
 </LinearLayout>
