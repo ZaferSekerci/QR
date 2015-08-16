@@ -14,6 +14,12 @@ public class ders_programi extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ders_programi);
     }
+
+    public void home_go(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
     public void tara(View view) {
         Intent intent_tara = new Intent("com.google.zxing.client.android.SCAN");
         intent_tara.putExtra("SCAN_MODE", "QR_CODE_MODE");
